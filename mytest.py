@@ -1,22 +1,22 @@
-# # 练习：定义一个1-9的元组，1、输出倒数第3个元素；
-# s = (1, 2, 3, 4, 5, 6, 7, 8, 9)
-# print('倒数第3个是{}'.format(s[-3]))
-#
-# # 2、输出值468
-# print(s[3:8:2])
-#
-# # 思考：如何定义1-999的元组？
-# s = tuple(range(1, 999 + 1))
-# print(s)
-# print(s[-1])
-#
-# # 思考：如何定义1-999中偶数组成的元组,？
-# s = tuple(range(2, 1000, 2))
-# print(s)
-# print(s[-1])
-#
-# 练习：列表[11,13,5,7,0,56,23,34,72]，
-#  求该列表中的最大值，最小值及列表中一共有几个元素
+# 练习：定义一个1-9的元组，1、输出倒数第3个元素；
+s = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+print('倒数第3个是{}'.format(s[-3]))
+
+# 2、输出值468
+print(s[3:8:2])
+
+# 思考：如何定义1-999的元组？
+s = tuple(range(1, 999 + 1))
+print(s)
+print(s[-1])
+
+# 思考：如何定义1-999中偶数组成的元组,？
+s = tuple(range(2, 1000, 2))
+print(s)
+print(s[-1])
+
+练习：列表[11,13,5,7,0,56,23,34,72]，
+ 求该列表中的最大值，最小值及列表中一共有几个元素
 l = [11, 13, 5, 7, 0, 56, 23, 34, 72]
 print('列表:', l)
 print('最大值:{}, 最小值：{}， 一共{}个元素'.format(max(l), min(l), len(l)))
@@ -42,37 +42,4 @@ l.extend(l_new)
 print(l)
 
 
-# s = [1, 2, 3]
 
-# print(s.reverse())
-# print(s.insert(1, 99))
-# print(s)
-# s.append(20)
-# print(s)
-#
-# s1 = [6,66,666]
-# s.extend(s1)
-# print(s)
-# print(s1)
-# s.pop(1)
-# print(s)
-# s.append(6)
-# s.remove(6)
-# print(s)
-#
-# print(len(s))
-# print(s.count(66))
-# print(max(s))
-# print(min(s))
-#
-# print(s)
-# del s[1]
-# print(s)
-#
-# s.append(6)
-# print(s.index(6))
-# print(s)
-# print(s.count(6))
-#
-# s.clear()
-# print(s)
