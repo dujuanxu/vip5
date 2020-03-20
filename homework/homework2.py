@@ -85,8 +85,8 @@ def sort_num_form_file(src_file):
 
 
 if __name__ == '__main__':
-    l = sort_num_form_file("D:\\code\\vip5\\data3.txt")
+    l = sort_num_form_file("/data3.txt")
     print(l)
-    copy_file_asc("D:\\code\\vip5\\data.txt", "D:\\code\\vip5\\backup.txt")
+    copy_file_asc("/data.txt", "/python_base/backup.txt")
     print(get_grime_num(20))
     print(fibonacci(10))

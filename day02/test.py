@@ -1,3 +1,5 @@
 # import Mymodule
 from  Mymodule import *
-# print(Mymodule2.add(1,2))
+from pythontest import Mymodule2
+
+print(Mymodule2.add(1,2))
